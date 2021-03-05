@@ -10,9 +10,11 @@ module DrinkingSudo
     end
 
     desc "launch_website", "launch website"
-    def launch_website
-      Launchy.open("https://solt9029.com")
-      system("ls")
+    def launch_website(*urls)
+      urls.each do |url|
+        Launchy.open(url)
+      end
+      system("/usr/bin/sudo ls")
     end
 
     desc "snake {CamelCaseString}", "convert {CamelCaseString} to {snake_case_string}"
