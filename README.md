@@ -1,4 +1,6 @@
 # 飲酒sudoを防止するシステム
+<img width="1271" alt="image" src="https://user-images.githubusercontent.com/21151010/111776004-d3199900-88f4-11eb-826e-3f0fc54afd38.png">
+
 - tweet: https://twitter.com/solt9029/status/1368060841115840513
 - 飲酒時にsudoコマンドの実行を防止する。
 
